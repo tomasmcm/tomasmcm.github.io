@@ -1,0 +1,9 @@
+{
+  "name": "portfolio-2018",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "jekyll serve"
+  }
+}
