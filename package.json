@@ -5,6 +5,10 @@
   "license": "MIT",
   "scripts": {
     "start": "jekyll serve",
-    "ipfs-build": "jekyll build && cd _site/ && npx all-relative"
+    "ipfs-build": "jekyll build && node dither.js && cd _site/ && npx all-relative"
+  },
+  "dependencies": {
+    "gleech": "^0.1.0",
+    "glob": "^8.0.3"
   }
 }
