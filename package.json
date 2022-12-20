@@ -4,6 +4,7 @@
   "main": "index.html",
   "license": "MIT",
   "scripts": {
-    "start": "jekyll serve"
+    "start": "jekyll serve",
+    "ipfs-build": "jekyll build && cd _site/ && npx all-relative"
   }
 }
